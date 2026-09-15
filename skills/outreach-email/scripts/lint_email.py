@@ -32,7 +32,8 @@ PHRASES = [
     "align well with", "aligns well with", "aligns with", "align with",
     "resonated", "resonates with me", "passionate about",
     "doing amazing things", "exciting time", "perfect fit", "ideal candidate",
-    "i believe my skills",
+    "i believe my skills", "close to how i", "how i like to work", "like that too",
+    "mirrors my own",
     # grand significance / vague authority
     "a testament to", "pivotal moment", "evolving landscape", "at the intersection of",
     "speaks to a broader", "many teams struggle", "it's widely understood",

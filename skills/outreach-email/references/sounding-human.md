@@ -36,6 +36,8 @@ The original observation had two items. The third was invented for cadence.
 
 **Stacked hedges.** *just*, *perhaps*, *might possibly*, *I think maybe*. One is human. Three in a paragraph reads as nervous or generated.
 
+**Describing yourself by resemblance.** *that's close to how I like to work*, *I'm a PM who builds like that too*, *which mirrors my own approach*. It gestures at a match instead of stating what the user did. Say the thing: *I've also built X and Y*, *At [company] I built [B] and found [C]*. If a line about fit is really needed, say it the way people talk: *it's how I've operated*.
+
 **Same opener, sentence after sentence.** I... I... I.... Vary it, often by starting with the thing about them.
 
 **The dramatic one-line closer.** A short standalone sentence meant to land like a mic drop (*That's the future I want to build.*). Nobody writes these to someone they met yesterday.

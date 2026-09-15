@@ -56,3 +56,24 @@ Write two things:
 2. **A forwardable blurb** they can paste without editing: one line on who the user is, the specific reason for this recipient, a bounded ask (15-20 minutes, or "who's the right person for X"), and contact info. Written so it works forwarded.
 
 For investors, see the double opt-in note in `investors.md`.
+
+---
+
+## Networking intros (someone connects you to a person)
+
+For intros that open a door (a coffee, an industry conversation, a possible opportunity), not investor intros, which follow `investors.md`.
+
+Two short messages, same day (see the networking intro exchanges in `examples.md`):
+
+1. **Reply on the intro thread.** Thank the connector by name, a line to the new person, and say you'll reach out separately. That moves the connector out of the scheduling.
+2. **Message the new person directly.** Who you are in a clause (including the name you go by, if the connector used a different one), thanks for the time, defer to their location and schedule, and one open question ("how does your schedule look next week?").
+
+When they offer options, pick one in a line and confirm the one missing detail (the exact place).
+
+**When the user has to offer times, offer the times that work best, not every time they're free.** Two or three tight windows, with a line that they'll work around the other person's schedule if none fit. Never explain why those are the windows (work hours, days off, what they do the rest of the week). That isn't dishonest, it's not oversharing, and a first impression should read as someone with a full calendar who's making room.
+
+> Weak: I work Tuesday-Thursday 9am-6pm, so I can do a call after work or on my lunch break. Otherwise I can meet in person Monday or Friday.
+>
+> Better: I'm free Tuesday or Wednesday 12-1, or Friday morning for coffee. If none of those work, happy to work around your schedule.
+
+Match the channel they were intro'd on: a text intro gets texts, not an email.

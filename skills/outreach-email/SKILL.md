@@ -21,9 +21,9 @@ Read the matching file before drafting. If the request spans two (a client apolo
 | **Investors** | Cold email to a VC or angel, warm intro blurb, post-pitch follow-up, investor update, replying to a pass | `references/investors.md` | Direct, numbers-forward, still human |
 | **Internal** | Cross-team ask, email to an exec, status update, reply when you don't know yet, nudge, escalation, pushback | `references/internal.md` | Clear and warm; ask first |
 | **Client issues** | Outage, missed deadline, billing error, bad delivery, data or security incident | `references/client-issues.md` | Calm, accountable, specific; never casual |
-| **General outreach** | Networking, asking an expert a question, partnership, podcast or speaking ask, customer discovery | Nothing extra: this file is enough | The user's own voice |
+| **General outreach** | Networking, replying to a networking intro, asking an expert a question, partnership, podcast or speaking ask, customer discovery | Nothing extra: this file is enough | The user's own voice |
 
-Also read `references/follow-ups.md` for any nudge, reply to a response, LinkedIn message, or intro request.
+Also read `references/follow-ups.md` for any nudge, reply to a response, LinkedIn message, intro request, or networking intro someone made for the user.
 
 ## The theory
 
@@ -151,6 +151,8 @@ Register shifts by scenario (see the table up top), but the person doesn't: a cl
 - Promises the user can't personally keep (credits, dates, "this will never happen again")
 
 ## Output
+
+**Keep the user in the loop.** The user makes the calls; the drafts are for reacting to. End every round of drafts with one to three short questions in prose (never a pop-up picker), for example: which variant to carry forward; tone (kind, direct, simple, casual peer); any wording they'd say differently; the real detail behind a `[slot]`. On revisions, apply their feedback, still return the variants, and ask again about anything left open. Don't stall before the first draft to ask these; drafts first, questions after.
 
 Return **two or three full variants that differ by angle, not by tone.** Tone variants make the user pick between shades of the same email; angle variants make them pick which true thing to lead with. Label each by angle in a few words ("Coin hook + trades bridge," "Traction-first," "Own it, then the fix"). Two variants are enough for short messages (nudges, LinkedIn notes, rejection replies, quick internal replies); don't invent an angle the material doesn't have. For a client incident, one strong draft plus a note on what to confirm can beat three variants.
 

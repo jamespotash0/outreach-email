@@ -239,3 +239,58 @@ This one is shown nearly verbatim because it's instructive twice: it got a co-fo
 - **Show one idea instead of promising several.** Swap "I think you'll love them" for the single best idea, stated in a line: "your pricing page leads with features; your reviews all mention time saved." A concrete give earns the call; a promised one asks the reader to take it on faith.
 - **The ask.** On a cold first email, asking whether they're interested beats asking for a time: "Want me to send the other two?"
 - **"Would love to have the chance to"** can go. State the work plainly.
+
+---
+
+## Networking intros
+
+### Move: thank the connector, take scheduling off their plate, defer to the other person
+
+*A text intro from a family friend to someone who helps lead an NYC startup. Real messages; names bracketed.*
+
+**Connector's intro (for context):**
+
+> [Name]<>[User] - connecting two great people. I gave you both the background. [Name] is a very close friend and helps lead one of NYC's top startups. I've known [User] since he was born. [Why the connector knows the user]. He's a go getter and sharp.
+>
+> I'll leave it to you guys to connect to find some time to grab coffee.
+
+**Reply on the group thread:**
+
+> Thanks for connecting [Connector]. Really nice to meet you [Name] and look forward to meeting. I will text you separately to set up a time.
+
+**Separate text to the new contact:**
+
+> Hey [Name], it's [the name the connector used] - I go by [professional name] professionally. Really appreciate you taking the time to meet. Happy to meet by your office or somewhere nearby at a time that works best for you. How does your schedule look next week?
+
+**They offered three options. The reply:**
+
+> I'm good for [the option picked, restated exactly: day, time, neighborhood]
+
+> Where would you like me to meet you? Is that at your office or a place nearby
+
+*Sentence by sentence:* the group reply thanks the connector first, gives the new person one warm line, and says the next step happens elsewhere, so the connector is done → the direct text clears up the name mismatch in a clause before anything else, then thanks, then removes the friction (their office, their time) → one open question about next week, not a list of slots → when they offer options, restate the one picked word for word, then ask for the one detail still missing.
+
+*What's constant:* short, plain, no pitch. The intro already did the selling; these messages only make the meeting easy to happen. What the user wants from the meeting stays out of writing for now.
+
+*What to tighten:* send the pick and the location question as one message, and proofread short texts too ("like to me to" slipped through).
+
+### Move: they said "reach out directly": offer a few windows, share nothing else
+
+*A group-text networking intro to a dentist who owns practices, framed as a conversation about the industry and possible opportunities. The dentist replied on the thread: "please reach out to me directly and let me know when is a good time to connect." The first draft listed the user's whole work schedule; the fix came from a sibling's review.*
+
+**First draft (don't):**
+
+> Good morning, dr [Name]
+> It's [User]. I really appreciate you taking the time to connect with me.
+>
+> I work Tuesday-Thursday 9am-6pm. So I can do a call either after work or during my lunch break at work. Otherwise I can meet in person Monday or a Friday if that is preferred.
+
+**Better:**
+
+> Good morning Dr. [Name], it's [User]. Really appreciate you taking the time to connect.
+>
+> I'm free [two or three short windows, e.g. Tuesday or Wednesday 12-1, or Friday morning] for a call or coffee. If none of those work, happy to work around your schedule.
+>
+> Looking forward to it.
+
+*What changed:* it's a direct text, since that's what they asked for (not the group thread) → no work hours or reasons, just the windows → a few windows instead of every free hour, because "free all of Monday and Friday" makes the user look underemployed → the open offer to work around them does what the full list was trying to do, without the oversharing.
