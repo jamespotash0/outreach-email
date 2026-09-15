@@ -1,10 +1,10 @@
 # Background — asset pool
 
-<!-- TEMPLATE: this file has not been filled in yet. The skill will walk you through it on first use. -->
+<!-- TEMPLATE: the skill copies this to background.md and fills it in with you on first use. background.md is gitignored. -->
 
-**This is a menu, not a résumé.** The skill pulls the one or two items that genuinely connect to a given person, company, or role, and leaves the rest out. An email that lists four accomplishments is weaker than one that lists the right one.
+**This is a menu, not a résumé.** The skill pulls the one or two items that genuinely connect to a given reader, and leaves the rest out. Fill in only the sections you need: job search and networking use Experience, Things you've built, and Personal threads; internal and client emails use Current role; investor emails use Venture. An email that lists four accomplishments is weaker than one that lists the right one.
 
-The user maintains this file. If something here is stale or they correct a detail mid-conversation, treat what they say as authoritative and mention that the file is worth updating. See `background.example.md` for what a fully filled-in version looks like.
+The user maintains this file. If something here is stale or they correct a detail mid-conversation, treat what they say as authoritative and mention that the file is worth updating. Your filled-in copy lives in `background.md`, which is gitignored.
 
 ---
 
@@ -17,6 +17,18 @@ The user maintains this file. If something here is stale or they correct a detai
 The one-line parenthetical that establishes credibility without a paragraph. Usually goes right before the ask.
 
 <!-- TODO: e.g. "my background's as a PM but technical -> [degree] from [school]" — or whatever the honest, fast version is -->
+
+---
+
+## Current role (internal and client emails)
+
+<!-- TODO (if needed): title, team, company and what it does, who you report to, the teams and clients you work with most, and anything about how your company writes (formal memos? Slack-first? subject prefixes?) -->
+
+## Venture (investor emails)
+
+Only what's true and current. Numbers get re-confirmed with you before any investor email goes out.
+
+<!-- TODO (if needed): company name and one-sentence description; stage; traction with real numbers and dates (revenue, growth, users, pilots, LOIs); the raise (amount, instrument, lead or committed so far); team and why you're the ones to build it; why now; deck link -->
 
 ---
 

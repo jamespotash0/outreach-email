@@ -2,6 +2,8 @@
 
 Real emails, annotated. Read for voice, rhythm, and *moves* — not for lines.
 
+These happen to be job-search and networking emails, but the voice is the user's everywhere: an investor email or an internal ask from this user should sound like the same person, adjusted for the register in SKILL.md's scenario table. The scenario files carry their own skeletons for structure. When the user shares a real email that worked in another scenario, add it here under a new heading, bracketed the same way.
+
 **How to read these.** Openers, closers, and connective tissue are shown verbatim because they *are* the voice. The middle of each email — the recall, the bridge, the substance — is shown with `[bracketed slots]` where the original had a specific. Those slots are the part that must be new every time; the bracket text tells you what kind of detail belongs there. Where a real detail is left in, it's there to show the *level* of specificity, not to be reused.
 
 Never reuse a sentence from a recall or bridge section. If a draft could have been written without the current conversation's specifics, it's a copy, not a draft.
@@ -107,6 +109,8 @@ The first is polite noise; every company believes it's team-oriented. The second
 
 ## Outbound
 
+The coin, projects-page, warm-intro, and product-user emails are the **direct-ask** play: interest stated, ask made. The Duo PM email is the **door-opener** play: no ask, a question about their thinking. Note how length follows the play and the situation: the coin email is short because the hook carries it; the warm-intro email is the longest because the intro bought attention and the track record is the pitch.
+
 ### Move: personal-detail hook, stacked bridges, low-friction ask
 
 **Subject:** `[their hobby] + tech`
@@ -146,6 +150,34 @@ The first is polite noise; every company believes it's team-oriented. The second
 
 **Same move, different craft.** If the recipient writes a newsletter instead of shipping code, the hook is one specific issue and the reason they said they started writing it; the mirror is something they've written or built for the same reason. The shape doesn't care whether the craft is code.
 
+### Play: door-opener. Move: their idea, your question (no ask)
+
+**Subject:** `Loved your piece on [the specific post by name]`
+
+This one is shown nearly verbatim because it's instructive twice: it got a co-founder to reply in under an hour, and it still has tells worth fixing.
+
+> Hey [Name],
+> Came across your recent substack posts, and just wanted to say I really enjoyed your piece on [specific post]. I've been thinking a lot about how [the area the post is about] is evolving, and your framing around [their specific concept] really resonated. It feels like a natural progression — not about eliminating roles, but about maximizing people's value and building more integrated, efficient teams.
+>
+> Since you framed [their shift] as a "when," not an "if," I'm curious — do you think it works best when it's baked in from the start, like at [their company], or can it be as successful when introduced later into a more traditional org? What do you see as the biggest hurdles or key factors in making that transition work?
+>
+> When hiring for these roles, do you find folks with a [background A] tend to adapt better, or those coming from [background B] — or does it depend on something else entirely?
+>
+> Also, do you see this shift as part of a larger cycle that resets over time, or do you think it's a trend that's here to stay?
+>
+> Looking forward to hearing your thoughts!
+>
+> Best,
+> [Name]
+
+**Their reply** (50 minutes later): "sweet! How'd you come across it?" plus a real answer to the hiring question, and nothing on the other three.
+
+*Why it worked:* the subject names the exact piece, so it reads as a reader, not a sequence → the second paragraph quotes their own wording back ("a 'when,' not an 'if'") and applies it to their own company, which proves the post was actually read → the questions are ones only they can answer → there's no ask, so replying costs them nothing and flatters their expertise.
+
+*What to tighten next time:* four questions got one answer; ask one, two at most, and pick the one closest to the user's goal (here, the hiring question, which was also the one answered). Cut the first paragraph's "resonated" and the "not about X, but about Y" line; the second paragraph does that job with a real specific. Two em dashes become commas.
+
+*The follow-through:* the user's reply agreed and added their own experience, but never answered "How'd you come across it?" When they ask a direct question, answer it first, in a line. It's an invitation to keep talking.
+
 ### Move: warm intro, credibility-forward, no hook
 
 **Subject:** `Following up on [name 2]'s intro`
@@ -174,3 +206,36 @@ The first is polite noise; every company believes it's team-oriented. The second
 > [Name]
 
 *Sentence by sentence:* no personal hook, and it doesn't need one — the warm intro is the permission structure, so the email spends its space on substance → the compliment is credible because it's *sourced* ("while researching the space at [previous company]") rather than asserted → volunteering the caveat reads as honest, not as an excuse → the bulleted background is scannable for a reader deciding whether to forward → the ask is bigger here, a real meeting, which the intro has earned.
+
+### Move: long-time user of their product, proof, ideas on offer
+
+*From outside the user's own emails: a freelance copywriter pitching a software company. Kept for its structure, not its voice. The same shape fits any pitch of services, a portfolio-backed job ask, or a partnership offer.*
+
+**Subject:** `Hi [Name], I'm a [what you do, in their terms] looking to "wow" you`
+
+> Hey [Name],
+>
+> I've been a user of your product for [how long, true and specific] and would love to have the chance to [the work you want to do for them]. I have:
+>
+> - [A quantified result for a named client: "Improved product sales by 15% for Company ABC"]
+> - [A proven track record on the exact metric they care about, with proof links: "improving cart click-through (see screenshot [here] and [here])"]
+> - [The bridge: used their tools for years on your own work, so you already have a few ideas for improving theirs]
+>
+> I'd like to discuss a few ideas I have for improving [the specific pages or surfaces]. I think you'll love them.
+>
+> When would be a good time for a short call?
+>
+> [Name]
+> [Company]
+> [Email]
+> [Link]
+
+*Sentence by sentence:* the opener is the connection, and it's one only a real customer can claim → the ask is stated in the first sentence, so the reader knows what this is → the bullets are scannable proof, each one checkable (a number, a named client, a link to evidence), which is the one place bullets beat prose in a cold email → the last bullet is the bridge and the give at once: their product made the sender good at this, so they arrive with ideas → one closing ask.
+
+*What's constant with the other direct-ask emails:* a real, specific connection first; credibility kept short and concrete; something offered, not just requested; one ask.
+
+*What to tighten, using what's in SKILL.md and `perspectives.md`:*
+- **Subject.** It describes the sender, and it's long. It works better as a lowercase hook about them: `3 ideas for your pricing page`.
+- **Show one idea instead of promising several.** Swap "I think you'll love them" for the single best idea, stated in a line: "your pricing page leads with features; your reviews all mention time saved." A concrete give earns the call; a promised one asks the reader to take it on faith.
+- **The ask.** On a cold first email, asking whether they're interested beats asking for a time: "Want me to send the other two?"
+- **"Would love to have the chance to"** can go. State the work plainly.
