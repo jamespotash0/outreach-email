@@ -58,11 +58,63 @@ ln -s ~/outreach-email/skills/outreach-email ~/.hermes/skills/outreach-email   #
 
 Paths drift between releases; check your agent's docs if the skill doesn't show up.
 
-## First use
+## Using it
 
-Ask for an email ("what should I send Dana after my final round?", "need to tell Acme about yesterday's outage"). The first time, the skill asks a few questions to fill in the parts of `skills/outreach-email/references/background.md`: only the sections that scenario needs (your experience and personal threads, your role and company, or your startup's numbers). Every later email draws on that file.
+### Start it
 
-> **Privacy:** your filled-in `background.md` stays local. It's in `.gitignore`, so it won't be committed or pushed. Zip uploads to Claude.ai, ChatGPT, or Perplexity do include it if you zip after filling it in, which is what you want there.
+Either works:
+
+- **Just describe the email.** The skill loads on its own when you ask for an email, message, follow-up, pitch, or apology: "what should I send Dana after my final round?"
+- **Call it by name.** Claude Code: `/outreach-email:outreach-email` (plugin install) or `/outreach-email` (skills-folder install). Codex: `$outreach-email`. In other agents, say "use the outreach-email skill."
+
+### First run
+
+The first time, it asks a few questions to build your background file: only the sections that scenario needs (your experience and personal threads for job search, your role and company for internal and client emails, your startup's numbers for investors). Paste a résumé, LinkedIn, or deck to skip most of the questions. After that, every email draws on that file.
+
+### Give it what only you know
+
+The better the input, the less it asks. What matters most per scenario:
+
+| Scenario | Example prompt | What to include |
+|---|---|---|
+| Interview thank-you | "Had a 30 min screen with Tom at Ramp. He said PMs write their own SQL, no analyst queue. Thank-you?" | The specific thing they said that stuck, not just the topic |
+| Cold outreach | "Want to reach out to Maya Chen, co-founder of Fieldnote. Here's her latest newsletter: [link]" | Who, why them, and your goal (a role, a conversation, just getting on their radar) |
+| Ghosted | "Final round with Dana 12 days ago, sent a thank-you, nothing since." | Round, dates, any timeline they gave |
+| Investor pitch | "Cold email Rachel Kim at Foundry Lane about Crewlog. She led FieldKit's seed." | Why this investor; confirm your numbers are current |
+| Internal | "Priya hasn't answered on the webhook retry. I need to lock scope Friday. CC my manager?" | What you need, by when, and why that date |
+| Client issue | "Sync failed Tue and Wed night, techs went to 30 closed jobs, fixed Thursday, cause unconfirmed." | What happened, scope, what's fixed, what's confirmed, what's approved (credits) |
+| LinkedIn note | "Connection request to Priya Nair, VP Product at ServiceTitan, about her post on dispatch." | The post or detail you're referencing |
+
+Say "just write it" if you're in a hurry. It drafts anyway and leaves `[slots]` for the facts it doesn't have instead of guessing.
+
+### What you get back
+
+- **A hook sheet** (cold outreach, when the agent has web search): what it found about the person, with sources and dates, matched to your background. It asks which to lead with and what you have in common before drafting.
+- **Two or three drafts**, each leading with a different true thing (not the same email in three tones), labeled by angle, subject line first.
+- **A short note**: which approach it picked (door-opener or direct ask) and why, the `[slots]` to fill, sources it used, and anything to confirm before sending (numbers, credits, legal review).
+
+It never sends anything. Copy the draft into your email, or ask for a draft in a connected mail app if your agent has one.
+
+### Steer it
+
+Reply the way you'd talk to someone helping you write:
+
+- "shorter" / "more detail on the metrics"
+- "make it a door-opener, no ask" / "be more direct about the role"
+- "lead with the coin thing instead"
+- "that detail isn't true, it was four months" (it uses your correction and offers to update your background file)
+- "write the follow-up for next week" / "give me a LinkedIn version"
+- "why this subject line?" (it explains, drawing on the research in `perspectives.md`)
+
+### Your background file
+
+It lives at `references/background.md` inside the installed skill folder. Open and edit it any time; it's plain markdown.
+
+- **Clone + symlink install:** it's in your clone at `skills/outreach-email/references/background.md`, shared by every agent you linked, and safe from updates.
+- **Plugin or `npx skills` install:** it sits in the agent's install folder, which an update can replace. Keep a copy, or switch to the clone + symlink install if you use the skill a lot.
+- **Zip uploads** (Claude.ai, ChatGPT, Perplexity): fill it in locally first, then zip and upload, since those apps can't save it back.
+
+> **Privacy:** your filled-in `background.md` stays local. It's in `.gitignore`, so it won't be committed or pushed.
 
 ## What's inside
 
