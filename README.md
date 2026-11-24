@@ -22,7 +22,7 @@ One skill folder, no agent-specific code. It runs anywhere the SKILL.md format i
 |---|---|
 | Claude Code | `/plugin marketplace add jamespotash0/outreach-email` then `/plugin install outreach-email@outreach-email` |
 | Codex | `codex plugin marketplace add jamespotash0/outreach-email` |
-| Gemini CLI | `gemini extensions install https://github.com/jamespotash0/outreach-email` |
+| Gemini CLI | Install as an extension from this repo's URL ([Gemini CLI extension docs](https://github.com/google-gemini/gemini-cli)) |
 | VS Code / Copilot | Command palette: "Chat: Install Plugin From Source", paste the repo URL |
 | Cursor | Reads the root `plugin.json`; or use the skills CLI above |
 
@@ -44,14 +44,13 @@ cd skills/outreach-email && zip -r ../../outreach-email.zip . -x '.*'
 
 Zipped uploads don't carry your filled-in `background.md` back out. Fill in `references/background.md` first (or let the skill interview you, then paste the result into the file) and re-upload.
 
-**By hand.** Clone once and symlink into each agent, so they all share one `background.md`:
+**By hand.** Get a copy of this repo (GitHub's Code button), then link its `skills/outreach-email` folder into each agent's skills folder, so they all share one copy:
 
-```sh
-git clone https://github.com/jamespotash0/outreach-email.git ~/outreach-email
-ln -s ~/outreach-email/skills/outreach-email ~/.agents/skills/outreach-email   # Codex, Cursor, Gemini, Grok, Copilot, Windsurf, Goose
-ln -s ~/outreach-email/skills/outreach-email ~/.claude/skills/outreach-email   # Claude Code
-ln -s ~/outreach-email/skills/outreach-email ~/.hermes/skills/outreach-email   # Hermes Agent
-```
+| Agent | Skills folder |
+|---|---|
+| Codex, Cursor, Gemini, Grok, Copilot, Windsurf, Goose | `~/.agents/skills/` |
+| Claude Code | `~/.claude/skills/` |
+| Hermes Agent | `~/.hermes/skills/` |
 
 Paths drift between releases; check your agent's docs if the skill doesn't show up.
 
