@@ -31,6 +31,16 @@ What works instead:
 
 The frame to carry: **not asking for charity, proposing a conversation between equals.** Messages that sound like business propositions, not sales letters. For the user, that means leading with something they know or have seen that's useful to the reader (an industry shift, a pattern across customers, a lesson from building in the space) before any ask.
 
+## From the receiving end: a founder's take
+
+A startup leader who filters out most cold email wrote about the one that got through (a student who hadn't been asked for anything; story in `job-search.md`). The test they used is the designer Es Devlin's question: "What is essential? What do I have to communicate here?" What passed it [practitioner]:
+
+1. **Got to the point.** Respecting their time in the email made them believe she'd respect it on bigger projects.
+2. **Gave value up front.** They saw how she thinks without having to reply. It happened to land on the problem the team was working on that week.
+3. **Had already talked to users.** She did some of the work instead of describing what she would do.
+
+Their point: the email was a preview. Her work in the job matched what the email had shown.
+
 ## Send timing (sources disagree)
 
 | Source | Finding |

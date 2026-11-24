@@ -71,6 +71,12 @@ The research finds their side. Only the user knows the rest. Ask, in prose, two 
 
 Keep value-adds proportionate: a thoughtful paragraph, a short Loom, or a one-page doc. An unrequested 20-page strategy deck reads as pressure. And it has to be true: never suggest the user claim to have used a product they haven't.
 
+**The angle** (what makes this email unlike the others in their inbox)
+- "They described [product] as '[their phrase]'. Any way to turn that around toward what you want?"
+- "How long have you been watching them, and what were you doing back then that touched their world?"
+- "What's the bold version: the one claim about what you'd do there that you'd happily be held to?"
+- "What's their stated goal (a number, a mission, a next market), and where do you fit in getting there?"
+
 If the user has nothing that matches, say so plainly and pick the honest route: a door-opener question about their idea, or credibility-forward. A manufactured connection is worse than none.
 
 ## 4. Carry it into the draft

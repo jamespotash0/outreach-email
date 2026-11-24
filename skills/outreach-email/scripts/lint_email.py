@@ -23,6 +23,11 @@ PHRASES = [
     "happy to help", "i hope this helps", "just checking in", "bumping this",
     "circling back", "circle back", "did you see my last", "i never heard back",
     "as of my last", "quick question", "touch base",
+    # warm-up openers: delay the point
+    "thought i'd reach out", "thought i would reach out", "my name is",
+    "i'm writing to", "i am writing to", "allow me to introduce", "i came across your",
+    "i've been following your", "hope you had a great", "hope you're having a great",
+    "hope your week", "i know you're busy", "i know you are busy",
     # internal and client-issue boilerplate
     "per my last email", "as previously stated", "not sure if you saw my last",
     "apologize for any inconvenience", "sorry for any inconvenience",
@@ -73,7 +78,7 @@ def lint(text, max_chars=None):
     for m in re.findall(r"\[[^\]\n]{2,}\]|\bTODO\b|\bTK\b", body):
         issues.append(f"unfilled placeholder: {m}")
     for p in PHRASES:
-        if p in low:
+        if p in low or (subject and p in subject.lower()):
             issues.append(f"stock phrase: '{p}'")
     for w in WORDS:
         if re.search(rf"\b{re.escape(w)}\b", low):
@@ -117,6 +122,8 @@ def selftest():
     issues, _ = lint(good)
     assert issues == [], issues
     assert lint("x" * 301, max_chars=300)[0], "char limit not enforced"
+    assert lint("Subject: quick question\nhey sam,\nok")[0], "subject phrase missed"
+    assert lint("hey sam,\nThought I'd reach out about the role.")[0], "warm-up missed"
     print("selftest ok")
 
 

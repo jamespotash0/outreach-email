@@ -1,14 +1,24 @@
 {
   "name": "outreach-email",
-  "owner": { "name": "James Potash" },
-  "metadata": { "description": "A single skill for writing outreach emails that get replies." },
+  "owner": {
+    "name": "James Potash"
+  },
+  "metadata": {
+    "description": "A single skill for writing outreach emails that get replies."
+  },
   "plugins": [
     {
       "name": "outreach-email",
       "description": "Emails in your own voice that get replies: cold outreach, job search, investor pitches, internal asks, and client incident notes.",
       "source": "./",
       "strict": false,
-      "skills": ["./skills/outreach-email"]
+      "skills": [
+        "./skills/outreach-email"
+      ],
+      "agents": [
+        "./skills/outreach-email/agents/angle-finder.md",
+        "./skills/outreach-email/agents/recipient-critic.md"
+      ]
     }
   ]
 }

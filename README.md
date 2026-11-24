@@ -66,6 +66,7 @@ Either works:
 
 - **Just describe the email.** The skill loads on its own when you ask for an email, message, follow-up, pitch, or apology: "what should I send Dana after my final round?"
 - **Call it by name.** Claude Code: `/outreach-email:outreach-email` (plugin install) or `/outreach-email` (skills-folder install). Codex: `$outreach-email`. In other agents, say "use the outreach-email skill."
+- **Add a command** after the name: `angles [who]` (find the angle, no draft), `cold [who]` (full flow), `critique` (paste an email, get the recipient's read and fixes), `follow-up`, `learn` (paste an email that worked, and the skill folds the lessons in), `setup`. Called bare, it shows the menu.
 
 ### First run
 
@@ -134,6 +135,9 @@ skills/outreach-email/
   references/follow-ups.md          nudges, replies, LinkedIn, intro requests
   references/sounding-human.md      AI-writing tells and the review pass
   references/perspectives.md        what practitioners and datasets say, including where they disagree
+  references/commands.md            playbooks for angles, critique, and learn
+  agents/angle-finder.md            subagent: finds angles through one lens (team mode)
+  agents/recipient-critic.md        subagent: reads drafts as the recipient, returns fixes
   scripts/lint_email.py             mechanical check for drafts (Python 3, no deps)
 ```
 
