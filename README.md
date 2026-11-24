@@ -140,11 +140,8 @@ skills/outreach-email/
   references/commands.md            playbooks for angles, critique, and learn
   agents/angle-finder.md            subagent: finds angles through one lens (team mode)
   agents/recipient-critic.md        subagent: reads drafts as the recipient, returns fixes
-  scripts/lint_email.py             mechanical check for drafts (Python 3, no deps)
 commands/                           Claude Code menu entries (/outreach-email:critique etc.); each opens the skill
 ```
-
-`python3 skills/outreach-email/scripts/lint_email.py draft.txt` flags em dashes, curly quotes, stock phrases and non-apologies, leftover placeholders, and Title Case subjects. Add `--max-chars 300` for LinkedIn connection notes and `--selftest` to check the script itself.
 
 ## Credits
 

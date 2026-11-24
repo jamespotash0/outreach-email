@@ -46,7 +46,7 @@ Reply fast and short. Match their length; a two-line reply gets a three-line ans
 | InMail | 200-char subject, 1,900-char body | under 400 chars |
 | DM to an existing connection | 8,000 chars | email length or shorter |
 
-A connection note is the email's hook and ask with everything else removed: one true specific about them, one clause about the user, a reason to accept. No credential paragraph, no link. Count characters (`scripts/lint_email.py --max-chars 300` when code execution is available) and report the count with the draft. Free accounts get only a handful of personalized notes a month, so each should be the strongest angle.
+A connection note is the email's hook and ask with everything else removed: one true specific about them, one clause about the user, a reason to accept. No credential paragraph, no link. Count the characters and report the count with the draft. Free accounts get only a handful of personalized notes a month, so each should be the strongest angle.
 
 A second channel alongside email (commenting thoughtfully on their post, a short DM) can help a high-stakes cold email get noticed. Once, not a campaign.
 

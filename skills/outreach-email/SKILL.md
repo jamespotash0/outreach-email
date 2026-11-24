@@ -3,7 +3,7 @@ name: outreach-email
 description: Writes the user's emails and messages in their own voice when a specific person needs to read it and act. Covers cold and warm outreach (founders, execs, hiring managers, recruiters, investors, potential partners, anyone worth meeting), job-search emails (interview thank-yous, check-ins, rejection replies), pitching VCs and angels and investor follow-ups, internal company emails (asks, updates, replies, nudges, escalations), and client emails when something went wrong (outages, missed deadlines, billing or delivery mistakes). Use whenever the user wants to email, message, reach out to, follow up with, reply to, pitch, thank, or apologize to someone, or asks for a subject line or LinkedIn note, even if they never say "email", as in "what should I send Sarah after that call", "want to reach out to the Acme founder", "need to tell the client about the outage", "it's been two weeks, nothing".
 argument-hint: "[angles | cold | critique | follow-up | learn | setup] [who or what]"
 license: MIT
-compatibility: Works in any Agent Skills-compatible agent (Claude Code, Claude.ai, ChatGPT, Codex, Cursor, Gemini CLI, Grok Build, Hermes, Copilot, Perplexity, and others). No tools required; uses web search and Python 3 when available.
+compatibility: Works in any Agent Skills-compatible agent (Claude Code, Claude.ai, ChatGPT, Codex, Cursor, Gemini CLI, Grok Build, Hermes, Copilot, Perplexity, and others). No tools required; uses web search when available.
 metadata:
   version: "3.3"
 ---
@@ -21,7 +21,7 @@ Most requests come in plain words ("email the Acme founder") and need no command
 | *(none, invoked bare)* | Show this table as a short menu and ask what they need. Never auto-run a command. | |
 | `angles [who]` | Research and angle-hunting, then the hook sheet and questions. No draft. | `references/commands.md#angles` |
 | `cold [who]` | The full flow: angles, the user's answers, drafts, recipient critic. Uses team mode when available. | This file, from "Find the connection" |
-| `critique` | Reads a pasted email as the recipient would, runs the checker, returns fixes and one revised version. | `references/commands.md#critique` |
+| `critique` | Reads a pasted email as the recipient would, runs the mechanical check, returns fixes and one revised version. | `references/commands.md#critique` |
 | `follow-up` | A nudge or follow-up on an existing thread; push toward sending something made, not a bump. | `references/follow-ups.md` |
 | `learn` | Turns a shared email (and its outcome) into lessons: saved to `~/.outreach-email/lessons.md` (or the skill's files when editing its repo), with an offer to share them upstream. Not templates. | `references/commands.md#learn` |
 | `setup` | Fill in or update `background.md`. | "First-run setup" below |

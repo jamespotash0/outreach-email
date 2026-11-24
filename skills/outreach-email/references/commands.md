@@ -18,8 +18,8 @@ The user pastes an email, their own draft or one they've sent.
 
 1. If you don't know who it's going to, ask one question: their role and how they know the user. Otherwise go on.
 2. Run `agents/recipient-critic.md` with the email and the one-line recipient description, nothing else.
-3. Run `scripts/lint_email.py` on it if you can run code.
-4. Return the critic's verdict, the lint flags worth acting on, then one revised version that keeps the user's voice and fixes only what the critique found. Don't rewrite lines that worked.
+3. Run the mechanical check from `sounding-human.md` ("The review pass", step 1) on it.
+4. Return the critic's verdict, the mechanical-check hits worth acting on, then one revised version that keeps the user's voice and fixes only what the critique found. Don't rewrite lines that worked.
 
 ## learn
 
