@@ -70,7 +70,7 @@ Either works:
 
 ### First run
 
-The first time, it asks a few questions to build your background file: only the sections that scenario needs (your experience and personal threads for job search, your role and company for internal and client emails, your startup's numbers for investors). It starts by asking for your résumé, LinkedIn, personal website, GitHub, or deck, so most of the questions get skipped. After that, every email draws on that file.
+The first time, it asks what you're using it for (job search, fundraising, sales, networking, work emails), then a few questions to build your background file: only the sections that scenario needs (your experience and personal threads for job search, your role and company for internal and client emails, your startup's numbers for investors). It starts by asking for your résumé, LinkedIn, personal website, GitHub, or deck, so most of the questions get skipped. After that, every email draws on that file.
 
 ### Give it what only you know
 

@@ -12,6 +12,12 @@ The user maintains this file. If something here is stale or they correct a detai
 
 <!-- TODO: first name as it should appear in sign-offs, e.g. "— Sam" / "Best, Sam" -->
 
+## What you're using this for
+
+The skill's default context when a request is vague. Update it when your goal changes.
+
+<!-- TODO: main goal(s) (job search, raising from investors, sales or partnerships, networking, emails at work) and what a win looks like, e.g. "job search: PM role at a seed-to-Series B startup" or "raising a $2M seed for [company]" -->
+
 ## Identity line
 
 The one-line parenthetical that establishes credibility without a paragraph. Usually goes right before the ask.
