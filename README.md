@@ -45,7 +45,7 @@ cd skills/outreach-email && zip -r ../../outreach-email.zip . -x '.*'
 | Perplexity Agent API / Claude API | Upload through `/v1/skills` and reference the skill id |
 | Perplexity Spaces, ChatGPT Projects, custom GPTs | No skill support: paste `SKILL.md` into the instructions and upload the `references/` files |
 
-Zipped uploads don't carry your filled-in `background.md` back out. Fill it in first (or let the skill interview you, then paste the result into the file) and re-upload.
+Zipped uploads don't carry your filled-in `background.md` back out. Fill in `references/background.md` first (or let the skill interview you, then paste the result into the file) and re-upload.
 
 **By hand.** Clone once and symlink into each agent, so they all share one `background.md`:
 
@@ -109,10 +109,9 @@ Reply the way you'd talk to someone helping you write:
 
 ### Your background file
 
-It lives at `references/background.md` inside the installed skill folder. Open and edit it any time; it's plain markdown.
+It lives at `~/.outreach-email/background.md`, outside any install folder, so plugin updates never wipe it and every local agent shares it. Open and edit it any time; it's plain markdown.
 
-- **Clone + symlink install:** it's in your clone at `skills/outreach-email/references/background.md`, shared by every agent you linked, and safe from updates.
-- **Plugin or `npx skills` install:** it sits in the agent's install folder, which an update can replace. Keep a copy, or switch to the clone + symlink install if you use the skill a lot.
+- **Older setups:** if that file doesn't exist, the skill falls back to `references/background.md` inside the skill folder. Move it to `~/.outreach-email/` to keep it safe from updates.
 - **Zip uploads** (Claude.ai, ChatGPT, Perplexity): fill it in locally first, then zip and upload, since those apps can't save it back.
 
 > **Privacy:** your filled-in `background.md` stays local. It's in `.gitignore`, so it won't be committed or pushed.
