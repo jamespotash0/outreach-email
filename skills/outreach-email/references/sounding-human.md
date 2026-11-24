@@ -52,7 +52,7 @@ Two notes on this list. *Resonated with me* appears in the weakest email in the 
 
 ## Punctuation
 
-**Em dashes: one per email at most, and prefer zero.** The example emails reach for parentheses, colons, semicolons, commas, and `->` instead. Spaced em dashes stacked two and three to a paragraph are a strong tell, and this is the pattern most likely to leak in from the drafting side rather than from the user's own voice.
+**Em dashes: none.** The example emails reach for parentheses, colons, semicolons, commas, and `->` instead. Spaced em dashes stacked two and three to a paragraph are a strong tell, and this is the pattern most likely to leak in from the drafting side rather than from the user's own voice.
 
 **Straight apostrophes and quotes**, not curly. `don't`, not `don’t`.
 

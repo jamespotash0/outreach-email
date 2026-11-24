@@ -195,7 +195,7 @@ Register shifts by scenario (see the table up top), but the person doesn't: a cl
 - "I hope this email finds you well" / "Hope things have been good on your end" / "I'm reaching out because" / "thought I'd reach out" / "My name is..." / "I came across your profile" / "I wanted to express my sincere gratitude"
 - "Just checking in" / "bumping this" / "per my last email" / "did you see my last email"
 - "We apologize for any inconvenience" and other non-apologies (see `client-issues.md`)
-- "passionate about," "leverage," "synergies," "circle back"
+- "passionate," "results-driven," "leverage," "synergies," "circle back"
 - Praise anyone could receive: "doing amazing things in the space," "such an exciting time"
 - Excitement with no specific attached; more than one exclamation point, roughly
 - Promises the user can't personally keep (credits, dates, "this will never happen again")

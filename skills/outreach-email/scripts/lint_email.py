@@ -35,7 +35,7 @@ PHRASES = [
     "sorry if you feel", "sorry to bother you",
     # job-email boilerplate
     "align well with", "aligns well with", "aligns with", "align with",
-    "resonated", "resonates with me", "passionate about",
+    "resonated", "resonates with me", "results-driven",
     "doing amazing things", "exciting time", "perfect fit", "ideal candidate",
     "i believe my skills", "close to how i", "how i like to work", "like that too",
     "mirrors my own",
@@ -48,7 +48,7 @@ WORDS = [
     "underscores", "showcase", "showcasing", "tapestry", "testament", "intricate",
     "meticulous", "garner", "foster", "bolster", "seamless", "seamlessly", "holistic",
     "comprehensive", "unlock", "empower", "elevate", "transformative", "game-changing",
-    "synergy", "synergies", "vibrant", "thrilled", "truly", "deeply",
+    "synergy", "synergies", "passionate", "vibrant", "thrilled", "truly", "deeply",
 ]
 TAILS = ["highlighting", "underscoring", "emphasizing", "showcasing", "reflecting",
          "demonstrating", "signaling"]
@@ -65,8 +65,8 @@ def lint(text, max_chars=None):
         body = "\n".join(lines).strip()
     low = body.lower()
 
-    if body.count("—") > 1:
-        issues.append(f"{body.count(chr(0x2014))} em dashes (max 1, prefer 0)")
+    if "—" in body:
+        issues.append(f"{body.count(chr(0x2014))} em dash(es) (use a comma, colon, or ->)")
     if re.search("[‘’“”]", body):
         issues.append("curly quotes/apostrophes (use straight ones)")
     if body.count("!") > 1:
@@ -113,7 +113,7 @@ def selftest():
            "stuck with you, e.g. how she described the roadmap sequencing].")
     issues, _ = lint(bad)
     joined = " | ".join(issues)
-    for needle in ["em dashes", "exclamation", "placeholder", "hope this email",
+    for needle in ["em dash", "exclamation", "placeholder", "hope this email",
                    "passionate", "testament", "not X but Y", "Title Case"]:
         assert needle in joined, f"selftest missed: {needle}\n{joined}"
     good = ("Subject: coin collector + tech\n"
