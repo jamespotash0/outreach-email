@@ -14,12 +14,7 @@ One skill folder, no agent-specific code. It runs anywhere the SKILL.md format i
 
 ## Install
 
-**Any coding agent, one command** ([skills CLI](https://github.com/vercel-labs/skills), detects Claude Code, Codex, Cursor, Gemini CLI, Grok, Hermes, Copilot, Windsurf, OpenCode, Cline, Goose, Amp and 60+ more):
-
-```sh
-npx skills add jamespotash0/outreach-email -g            # pick agents interactively
-npx skills add jamespotash0/outreach-email -g -a '*' -y  # every detected agent
-```
+**Any coding agent:** add `jamespotash0/outreach-email` with the [skills CLI](https://github.com/vercel-labs/skills) (its README has the one-line install). It detects Claude Code, Codex, Cursor, Gemini CLI, Grok, Hermes, Copilot, Windsurf, OpenCode, Cline, Goose, Amp and 60+ more; install globally to share one copy across them.
 
 **Plugin marketplaces**
 
@@ -29,7 +24,7 @@ npx skills add jamespotash0/outreach-email -g -a '*' -y  # every detected agent
 | Codex | `codex plugin marketplace add jamespotash0/outreach-email` |
 | Gemini CLI | `gemini extensions install https://github.com/jamespotash0/outreach-email` |
 | VS Code / Copilot | Command palette: "Chat: Install Plugin From Source", paste the repo URL |
-| Cursor | Reads the root `plugin.json`; or use `npx skills` above |
+| Cursor | Reads the root `plugin.json`; or use the skills CLI above |
 
 **Chat apps (upload a zip)**
 
