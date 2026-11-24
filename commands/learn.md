@@ -1,5 +1,5 @@
 ---
-description: Turn an email that worked into lessons the skill remembers
+description: "Turn an email that worked into lessons the skill remembers"
 argument-hint: "[paste the email and what happened]"
 ---
 

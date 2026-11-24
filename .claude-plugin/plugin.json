@@ -1,0 +1,23 @@
+{
+  "name": "outreach-email",
+  "version": "3.3.0",
+  "description": "Emails in your own voice that get replies: cold outreach, job search, investor pitches, internal asks, and client incident notes.",
+  "author": {
+    "name": "James Potash"
+  },
+  "repository": "https://github.com/jamespotash0/outreach-email",
+  "license": "MIT",
+  "keywords": [
+    "cold-email",
+    "outreach",
+    "job-search",
+    "fundraising",
+    "networking",
+    "email",
+    "writing"
+  ],
+  "agents": [
+    "./skills/outreach-email/agents/angle-finder.md",
+    "./skills/outreach-email/agents/recipient-critic.md"
+  ]
+}

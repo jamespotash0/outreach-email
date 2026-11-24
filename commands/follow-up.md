@@ -1,5 +1,5 @@
 ---
-description: Write a nudge or follow-up on an existing email thread
+description: "Write a nudge or follow-up on an existing email thread"
 argument-hint: "[paste the thread or describe it]"
 ---
 

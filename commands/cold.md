@@ -1,5 +1,5 @@
 ---
-description: Full cold-email flow: research the person, find the angle, draft in your voice, critique
+description: "Full cold-email flow: research the person, find the angle, draft in your voice, critique"
 argument-hint: "[who]"
 ---
 
