@@ -112,7 +112,7 @@ It lives at `~/.outreach-email/background.md`, outside any install folder, so pl
 - **Older setups:** if that file doesn't exist, the skill falls back to `references/background.md` inside the skill folder. Move it to `~/.outreach-email/` to keep it safe from updates.
 - **Zip uploads** (Claude.ai, ChatGPT, Perplexity): fill it in locally first, then zip and upload, since those apps can't save it back.
 
-> **Privacy:** your filled-in `background.md` stays local. It's in `.gitignore`, so it won't be committed or pushed.
+> **Privacy:** your filled-in `background.md` stays local. It's in `.gitignore`, so it won't be committed or pushed. Full [Privacy policy](PRIVACY.md).
 
 ## What's inside
 
@@ -137,6 +137,10 @@ skills/outreach-email/
   agents/recipient-critic.md        subagent: reads drafts as the recipient, returns fixes
 commands/                           Claude Code menu entries (/outreach-email:critique etc.); each opens the skill
 ```
+
+## Privacy
+
+See the [Privacy policy](PRIVACY.md): nothing leaves your computer unless you approve a lesson to share as a GitHub issue.
 
 ## Credits
 
