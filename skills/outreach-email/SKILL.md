@@ -5,7 +5,7 @@ argument-hint: "[angles | cold | critique | follow-up | learn | setup] [who or w
 license: MIT
 compatibility: Works in any Agent Skills-compatible agent (Claude Code, Claude.ai, ChatGPT, Codex, Cursor, Gemini CLI, Grok Build, Hermes, Copilot, Perplexity, and others). No tools required; uses web search and Python 3 when available.
 metadata:
-  version: "3.1"
+  version: "3.2"
 ---
 
 # Outreach email
@@ -14,7 +14,7 @@ One voice, many situations. Every email this skill writes has a specific reader 
 
 ## Commands
 
-Most requests come in plain words ("email the Jerry founder") and need no command: follow the rest of this file. When the user names one, route it:
+Most requests come in plain words ("email the Acme founder") and need no command: follow the rest of this file. When the user names one, route it:
 
 | Command | What it does | Follow |
 |---|---|---|
@@ -50,7 +50,7 @@ For anything cold, and most of the rest:
 - **A real connection inside.** Their true thing linked to the user's true thing, or a genuine question about their thinking.
 - **A subject that makes them want to open it.** Nothing else matters if it stays unopened.
 - **Differentiated.** They get a pile of these. Only this sender could have written this one; that's what earns an answer.
-- **Bold and human.** Write like a confident person, not a careful applicant. Use a little play (turn their own phrase around), make a claim the user will stand behind ("hand me your hardest, messiest problem"), and aim at *their* goal in their terms ("help get Jerry to 50m users"). A safe, hedged email reads like everyone else's. Bold doesn't mean inflated: every claim still has to be true of the user.
+- **Bold and human.** Write like a confident person, not a careful applicant. Use a little play (turn their own phrase around), make a claim the user will stand behind ("hand me your hardest, messiest problem"), and aim at *their* goal in their terms ("help get you to [their stated goal]"). A safe, hedged email reads like everyone else's. Bold doesn't mean inflated: every claim still has to be true of the user.
 - **A give, not just a take.** A conversation between equals, not a request for charity: lead with something useful to them (an observation, a pattern the user has seen, a small piece of work) and keep the ask tiny and sized ("15 minutes," not "a call to explore").
 
 All of it rests on one test: **could this sentence be sent to a different person or company without changing a word?** If yes, it's filler, and filler is what makes an email feel like a template. When the input only supports filler, go back and ask for a sharper detail rather than shipping the vague version.
@@ -74,14 +74,18 @@ When a choice isn't settled by these (which framework, how long, when to send, w
 
 ## First-run setup
 
-When `background.md` lacks what this scenario needs, don't draft. Say the skill needs to know the user first and it takes a few minutes. Ask only for the sections this scenario uses, a few questions at a time, in prose:
+When `background.md` lacks what this scenario needs, don't draft. Say the skill needs to know the user first and it takes a few minutes.
+
+**Ask for sources first.** Before any questions, ask for whatever they already have: a résumé, their LinkedIn, a personal website or portfolio, GitHub, a pitch deck (investors). Read what you can: fetch a public site or GitHub if you can browse; LinkedIn usually blocks fetching, so ask them to paste the profile text or attach its "Save to PDF" export. Draft the sections from those, then ask only about what they lack. Personal threads and *why* a project exists are rarely in a résumé, so expect to ask about those either way.
+
+Then ask only for the sections this scenario uses, a few questions at a time, in prose:
 
 - **Always:** name for sign-offs; the one-line credential they'd use to situate themselves.
 - **Job search and general outreach:** most recent role (what the company does, who it sold to, what they owned, outcomes with numbers) and earlier roles in a line each; two or three things they've built, each with *why it exists* (push past "for my portfolio"); personal threads with one concrete proof each.
 - **Investors:** the company in one sentence, stage, traction with real numbers, the raise (amount, instrument, who's in), team background, why now.
 - **Internal and client issues:** their role, team, company, who they report to, and the clients or teams they deal with most.
 
-If they paste a résumé, LinkedIn, or deck, start from it and ask only about what it lacks. Then write the completed sections into `~/.outreach-email/background.md` (or, if you can't write there, `references/background.md` in this skill's folder), following `background.template.md`'s structure and its *Reach for this when:* pattern (save it yourself if you can write files; otherwise hand it over), and use it for the session. Whether a partial fill is enough is their call.
+Then write the completed sections into `~/.outreach-email/background.md` (or, if you can't write there, `references/background.md` in this skill's folder), following `background.template.md`'s structure and its *Reach for this when:* pattern (save it yourself if you can write files; otherwise hand it over), and use it for the session. Whether a partial fill is enough is their call.
 
 ## Intake
 

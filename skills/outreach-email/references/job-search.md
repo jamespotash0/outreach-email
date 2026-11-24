@@ -35,9 +35,9 @@ Angle splits for variants: lead with the strategic point they made / lead with t
 | Growth stage | The hiring manager or the VP over the function; a VP will route to a recruiter if needed |
 | Large company | The hiring manager or a peer on the team (a practitioner whose work the user follows), not HR |
 
-Hiring managers live in email; recruiters live on LinkedIn. After being rejected through the front door, a peer on the team is a legitimate side door. One person per company at a time; add the next only after a few days of silence.
+Hiring managers live in email; recruiters live on LinkedIn. After being rejected through the front door, a peer on the team is a legitimate side door. One person per company at a time; add the next only after a few days of silence. Plan for volume: 30-50 well-aimed emails in a search. If 30 or more get no replies at all, change the pitch rather than sending more of the same.
 
-A useful source of targets: the portfolio pages of investors who back companies the user admires.
+A useful source of targets: the portfolio pages of investors who back companies the user admires. The same investors are an intro path into a company: one who backed it or publicly cheered its launch can forward a short blurb the user writes for them.
 
 **VC talent partners.** Connecting people to portfolio companies is their job. The email works like any other cold email: a reason to open it that's about them, short, easy to answer. What their job changes is which asks are on the table (see "Size the ask to their job" in SKILL.md). A broad ask like "any pointers on the best way to get connected with portfolio companies" is fine here, because pointing people somewhere is routine for them. Make the user easy to place: one sentence on what they want (stage, kind of role), three bullets a talent partner could paste into a note to a founder, links at the bottom.
 
@@ -56,9 +56,12 @@ Angles that have worked, to spark ideas. They aren't a checklist; most emails us
 - **Clear the obvious objection before it rules them out.** "Happy to relocate," "I know you're inundated right now," "I'll keep this to three lines."
 - **Propose the role they haven't posted.** "Looks like you'll need a first sales hire soon" got founder interviews at companies with no opening. Only when the user can say why, from something real (a job post pattern, a stated plan, a stage).
 - **Link work, don't attach a résumé** on the first cold email. A portfolio, a project, a writing sample.
+- **Do 15-30 minutes of their work first.** Interview three of their customers, size up a competitor, find five candidates for a role they're hiring, or write a one-page memo on a revenue or cost idea (state the assumptions). Lead with it; the ask rides on it. It's the clearest proof the email wasn't mass-sent. Skip it when the user can't do it well; a weak memo is worse than none.
+- **The first sentence earns the second.** Spend it on why the user is worth their time or on the thing about them, never on how the user found them or who the user is in general.
 - **Their words, turned into the ask.** Quote a line they've used about their product and give it a twist that points at the role. A founder once called his app "a friend in your pocket"; the opener became "now it seems like you're hiring PMs-in-training to be yours." That's the hook and the reason for writing in one sentence.
 - **Interest with a date on it.** "Following you since Series B, when it was just a car insurance app" beats "big fan." Pair it with something the user built nearby at the time, so the interest reads as earned.
-- **Their goal as the close.** Tie the ask to a number or mission they've stated ("one of the PMs who gets Jerry to 50m users. Worth a chat?"). Keep the line about what the user wants short and concrete. Abstract wants ("slope, ownership, learning") are about the user and could go in any email.
+- **Being their customer is a credential.** If the user really uses the product, say for how long and what it changed, in one line. A fitness brand's cofounder hired his eventual CEO off a cold email whose pull was plain, long-standing love for the product. Only when true: fandom is easy to check.
+- **Their goal as the close.** Tie the ask to a number or mission they've stated ("one of the PMs who gets you to [their stated goal]. Worth a chat?"). Keep the line about what the user wants short and concrete. Abstract wants ("slope, ownership, learning") are about the user and could go in any email.
 - **Optional closing question** that has nothing to do with hiring ("what's your all-time favorite coin?") when the hook was personal.
 
 For warm-intro follow-ups, a short bulleted background block is fine: the reader is deciding whether to forward.

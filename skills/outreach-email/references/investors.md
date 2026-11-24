@@ -30,7 +30,7 @@ About three sentences, readable in under a minute on a phone:
 
 1. **What the company does**, plainly. No "revolutionizing," no "AI-powered platform for."
 2. **Why they should care**: the two strongest facts (a metric with a date, a named customer, a notable co-investor, a team fact), as two short bullets if there are numbers. Plus one line on why *this* investor.
-3. **The ask**: what the user wants and the easy next step. Default: "We're raising $[X] [stage]. Happy to send the deck; would a 20-minute call in the next two weeks make sense?" Sources disagree on meeting ask vs. "want the deck?"; pick the meeting ask when traction is strong and the fit is exact, the deck offer when either is weaker, and say which you chose.
+3. **The ask**: what the user wants and the easy next step. Default: "We're raising $[X] [stage]. Happy to send the deck; would a 20-minute call in the next two weeks make sense?" Sources disagree on meeting ask vs. "want the deck?"; pick the meeting ask when traction is strong and the fit is exact, the deck offer when either is weaker, and say which you chose. If it's the meeting ask, offer two specific windows ("Tue 2-4 or Thu morning ET?") instead of "let me know what works": one fewer round trip, and a cold email to a seed investor that did exactly this got funded.
 
 Sign with name, title, and company URL. Send from a company address.
 

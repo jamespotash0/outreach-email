@@ -32,7 +32,7 @@ The original observation had two items. The third was invented for cadence.
 
 **Staged run-ups and signposting.** *I wanted to reach out because*, *quick question:*, *I'll keep this brief*, *the reason I'm writing is*. Announcing the sentence instead of writing it.
 
-**Pre-empting objections nobody raised.** *I know you're busy, but*, *I know this is out of the blue*. One acknowledgement of how slammed they are can work when it sets up an easier ask (see the coin email); a run-up that apologizes for the email existing doesn't.
+**Pre-empting objections nobody raised.** *I know you're busy, but*, *I know this is out of the blue*. One acknowledgement of how slammed they are can work when it sets up an easier ask (see the coin email); a run-up that apologizes for the email existing doesn't. A single clause is fine ("Apologies for the cold note." opened an email to a famous investor that got a same-day reply and a check); a sentence or more of it isn't.
 
 **Stacked hedges.** *just*, *perhaps*, *might possibly*, *I think maybe*. One is human. Three in a paragraph reads as nervous or generated.
 

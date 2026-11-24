@@ -26,6 +26,8 @@ Send as a **reply in the same thread** so context travels with it, unless the fi
 
 Nudge 1 is where most follow-up replies come from; give it real effort. A "closing the loop" last note is optional: say it's the last one, give an easy out, leave the door open, and then don't contact them again about this. Long persistence (the eighth email that finally got a reply) only works when every email adds weight and the relationship is still plausible; don't recommend it by default.
 
+A reply isn't the only payoff. A short, no-pressure cold email with one small, specific offer can go unanswered and still make the next meeting warm ("you're the one who emailed"). Write every cold email so the user would be glad to be remembered for it, which means no guilt in the nudges either.
+
 ## Replying when they do respond
 
 Reply fast and short. Match their length; a two-line reply gets a three-line answer. If they asked anything ("how'd you come across it?"), answer it in the first line; skipping it is the most common miss. Then respond to what they said with one real thing from the user's experience.

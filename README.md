@@ -70,7 +70,7 @@ Either works:
 
 ### First run
 
-The first time, it asks a few questions to build your background file: only the sections that scenario needs (your experience and personal threads for job search, your role and company for internal and client emails, your startup's numbers for investors). Paste a résumé, LinkedIn, or deck to skip most of the questions. After that, every email draws on that file.
+The first time, it asks a few questions to build your background file: only the sections that scenario needs (your experience and personal threads for job search, your role and company for internal and client emails, your startup's numbers for investors). It starts by asking for your résumé, LinkedIn, personal website, GitHub, or deck, so most of the questions get skipped. After that, every email draws on that file.
 
 ### Give it what only you know
 
@@ -144,7 +144,7 @@ skills/outreach-email/
 
 ## Credits
 
-Scenario guidance draws on published advice from Michael Seibel and Aaron Harris (YC), Elizabeth Yin, Hunter Walk, Paul Graham, Fred Wilson, and SaaStr (investors); HBR, Rogers and Lasky-Fink's research on writing for busy readers, and the GitLab handbook (internal); Lewicki et al.'s apology research, Atlassian and PagerDuty incident communication guides, and the GitLab, Buffer, Cloudflare, and 37signals incident write-ups (client issues); Gong, Lavender, 30 Minutes to President's Club, Hunter, and Boomerang reply-rate data; [Hunter's cold email guide](https://hunter.io/cold-email-guide/how-to-write-email-outreach/); and job-search stories from Morning Brew, Notion, interviewing.io, and Aakash Gupta.
+Scenario guidance draws on published advice from Michael Seibel and Aaron Harris (YC), Elizabeth Yin, Hunter Walk, Paul Graham, Fred Wilson, and SaaStr (investors); HBR, Rogers and Lasky-Fink's research on writing for busy readers, and the GitLab handbook (internal); Lewicki et al.'s apology research, Atlassian and PagerDuty incident communication guides, and the GitLab, Buffer, Cloudflare, and 37signals incident write-ups (client issues); Gong, Lavender, 30 Minutes to President's Club, Hunter, and Boomerang reply-rate data; [Hunter's cold email guide](https://hunter.io/cold-email-guide/how-to-write-email-outreach/); job-search advice from Ben Lang's Next Play newsletter and Aline Lerner (interviewing.io); and job-search stories from Morning Brew, Notion, interviewing.io, Aakash Gupta, and Barry's.
 
 
 This skill's review pass and tell list draw on [Wikipedia: Signs of AI writing](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing) and [blader/humanizer](https://github.com/blader/humanizer). Nudge and follow-up guidance comes from [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) (cold-email), [noamseg/interview-coach-skill](https://github.com/noamseg/interview-coach-skill), and [Ask a Manager](https://www.askamanager.org/2007/08/when-to-follow-up-after-interview.html). The one-line gaps list and the channel-length variant come from [alinafe82/job-hunting-skills](https://github.com/alinafe82/job-hunting-skills). Timing data is from [Woodpecker](https://woodpecker.co/blog/cold-email-statistics/), [Belkins](https://belkins.io/blog/cold-email-response-rates), [Lavender](https://www.lavender.ai/blog/cold-email-101), and [LinkedIn](https://www.linkedin.com/help/linkedin/answer/a411986/inmail-character-limits).
