@@ -18,6 +18,14 @@
       "agents": [
         "./skills/outreach-email/agents/angle-finder.md",
         "./skills/outreach-email/agents/recipient-critic.md"
+      ],
+      "commands": [
+        "./commands/angles.md",
+        "./commands/cold.md",
+        "./commands/critique.md",
+        "./commands/follow-up.md",
+        "./commands/learn.md",
+        "./commands/setup.md"
       ]
     }
   ]

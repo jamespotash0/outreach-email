@@ -1,6 +1,6 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "outreach-email",
-  "version": "3.2.0",
+  "version": "3.3.0",
   "description": "Emails in your own voice that get replies: cold outreach, job search, investor pitches, internal asks, and client incident notes."
 }

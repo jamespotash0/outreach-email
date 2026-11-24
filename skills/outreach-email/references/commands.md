@@ -28,6 +28,10 @@ The user shares an email (theirs or someone else's) to make the skill better. Th
 1. If you don't know them, ask about the outcome (replied? how fast? what happened?) and who the recipient was. One question. If there's no outcome, say the lesson comes from judgment, not results.
 2. Pull out the lessons: the reason to open it, how fast it got to the point, what made it easy to answer, what was bold, and what to tighten. Note anything that depends on who the recipient was (see "What you can ask whom" in SKILL.md).
 3. Make each lesson hold in more than one situation: a role that's open, missing, or changed; a different industry; a different kind of recipient.
-4. Find the file and section that already covers each lesson and add a line or two there. Add to an existing rule before creating a new section. Quote at most a short line (a subject, a turn of phrase) as an illustration. Never paste the email in as a template.
+4. Save each lesson where it will last:
+   - **The user is working in a git clone of this skill's repo** (the skill folder is inside a git work tree they're editing): find the file and section that already covers the lesson and add a line or two there. Add to an existing rule before creating a new section.
+   - **Otherwise** (an installed copy, which updates overwrite): append to `~/.outreach-email/lessons.md`, one short entry per lesson, under a heading naming the scenario file it belongs to (e.g. `## job-search.md`). Create the file if it's missing. If you can't write files, give them the entry to save there.
+   Either way, quote at most a short line (a subject, a turn of phrase) as an illustration. Never paste the email in as a template.
 5. Don't record outcomes or facts you weren't given.
-6. Tell the user which files changed and the lesson each one now carries. If you can't edit files, give them the exact edits instead.
+6. Tell the user where each lesson went.
+7. **Offer to share it upstream** (installed copies only), once: "Want to suggest this for everyone who uses the skill?" If yes, write a version with every name, company, product, and identifying detail removed, show it to them, and only after they approve, open an issue on `jamespotash0/outreach-email` (with `gh issue create` if available; otherwise give them the text and the link `https://github.com/jamespotash0/outreach-email/issues/new`). The issue holds the general lesson and which file it belongs in, never the email.

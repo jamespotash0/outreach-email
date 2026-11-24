@@ -5,7 +5,7 @@ argument-hint: "[angles | cold | critique | follow-up | learn | setup] [who or w
 license: MIT
 compatibility: Works in any Agent Skills-compatible agent (Claude Code, Claude.ai, ChatGPT, Codex, Cursor, Gemini CLI, Grok Build, Hermes, Copilot, Perplexity, and others). No tools required; uses web search and Python 3 when available.
 metadata:
-  version: "3.2"
+  version: "3.3"
 ---
 
 # Outreach email
@@ -23,7 +23,7 @@ Most requests come in plain words ("email the Acme founder") and need no command
 | `cold [who]` | The full flow: angles, the user's answers, drafts, recipient critic. Uses team mode when available. | This file, from "Find the connection" |
 | `critique` | Reads a pasted email as the recipient would, runs the checker, returns fixes and one revised version. | `references/commands.md#critique` |
 | `follow-up` | A nudge or follow-up on an existing thread; push toward sending something made, not a bump. | `references/follow-ups.md` |
-| `learn` | Turns a shared email (and its outcome) into lessons folded into this skill's files. Not templates. | `references/commands.md#learn` |
+| `learn` | Turns a shared email (and its outcome) into lessons: saved to `~/.outreach-email/lessons.md` (or the skill's files when editing its repo), with an offer to share them upstream. Not templates. | `references/commands.md#learn` |
 | `setup` | Fill in or update `background.md`. | "First-run setup" below |
 
 ## Pick the scenario
@@ -67,6 +67,7 @@ Paths are relative to this skill's folder. Read every time:
 
 - **`background.md`**: look first at `~/.outreach-email/background.md` (outside the skill folder, so updates never wipe it), then at `references/background.md` in this skill's folder. Use the first one that exists. It's the user's asset pool (who they are, their role and company, their venture if they have one, what they've built, personal threads). A menu, not a résumé: pull the one or two items that connect to this reader. **If the file doesn't exist, still contains `TODO` or `TEMPLATE` markers, or the sections this scenario needs are empty or `[bracketed]`, do the first-run setup below first.** It's personal and kept out of version control, so a fresh install won't have one; `references/background.template.md` has the structure. Never take the user's name from anywhere else (git config, OS account, email address); if it isn't in the file or conversation, sign as `[your name]`. If a `background.example.md` exists, it shows a finished file; never pull details from it.
   **Its *What you're using this for* section is the default context.** When a request is vague ("email this founder"), it decides the scenario and what to foreground: a job seeker writing to a founder wants a role or a conversation; a founder raising writes to the same person as a potential investor or customer. The request in front of you still wins. If one doesn't fit the stated goal (a job seeker emailing a VC), ask once which hat they're wearing. If the file predates this section, ask the one question, add the answer, and go on; don't rerun setup.
+- **`~/.outreach-email/lessons.md`**, if it exists: lessons the user saved with `learn`. They apply on top of the reference files and win where they conflict, since they come from the user's own results.
 - **`references/examples.md`**: real emails the user sent, annotated. The voice lives in these. **Examples show moves, not lines:** openers, closers, and connective phrases can be reused; the recall and bridge (the middle) never can.
 - **`references/sounding-human.md`**: what makes writing read as machine-generated, and the review pass every draft goes through. A reader who suspects generated text discounts everything in it, including the true parts.
 - **The scenario file** from the table above.

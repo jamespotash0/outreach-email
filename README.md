@@ -8,6 +8,8 @@ An [Agent Skill](https://agentskills.io) that writes emails in your own voice th
 - **Internal:** cross-team asks, notes to execs, status updates, nudges, escalations, saying no.
 - **Client issues:** outage, missed deadline, or billing-error emails that own the problem without over-promising or admitting legal liability.
 
+**Not a campaign tool.** One email, one person, in your voice: the founder you want to work for, the investor you want to pitch, the client you owe an apology.
+
 One skill folder, no agent-specific code. It runs anywhere the SKILL.md format is supported (Claude Code, Codex, Cursor, Gemini CLI, Grok Build, Hermes, Copilot, and more) and uploads as a zip to Claude.ai, ChatGPT, and Perplexity.
 
 ## Install
@@ -66,7 +68,8 @@ Either works:
 
 - **Just describe the email.** The skill loads on its own when you ask for an email, message, follow-up, pitch, or apology: "what should I send Dana after my final round?"
 - **Call it by name.** Claude Code: `/outreach-email:outreach-email` (plugin install) or `/outreach-email` (skills-folder install). Codex: `$outreach-email`. In other agents, say "use the outreach-email skill."
-- **Add a command** after the name: `angles [who]` (find the angle, no draft), `cold [who]` (full flow), `critique` (paste an email, get the recipient's read and fixes), `follow-up`, `learn` (paste an email that worked, and the skill folds the lessons in), `setup`. Called bare, it shows the menu.
+- **Add a command** after the name: `angles [who]` (find the angle, no draft), `cold [who]` (full flow), `critique` (paste an email, get the recipient's read and fixes), `follow-up`, `learn` (paste an email that worked, and the skill folds the lessons in), `setup`. Called bare, it shows the menu. In Claude Code (plugin install) each command also has its own entry in the `/` menu: `/outreach-email:critique`, `/outreach-email:cold`, and so on.
+- **`learn` keeps what you teach it** in `~/.outreach-email/lessons.md`, next to your background file, so updates don't wipe it. It offers to suggest each lesson for everyone as a GitHub issue, with names and companies stripped, and only after you approve the text.
 
 ### First run
 
@@ -138,6 +141,7 @@ skills/outreach-email/
   agents/angle-finder.md            subagent: finds angles through one lens (team mode)
   agents/recipient-critic.md        subagent: reads drafts as the recipient, returns fixes
   scripts/lint_email.py             mechanical check for drafts (Python 3, no deps)
+commands/                           Claude Code menu entries (/outreach-email:critique etc.); each opens the skill
 ```
 
 `python3 skills/outreach-email/scripts/lint_email.py draft.txt` flags em dashes, curly quotes, stock phrases and non-apologies, leftover placeholders, and Title Case subjects. Add `--max-chars 300` for LinkedIn connection notes and `--selftest` to check the script itself.
